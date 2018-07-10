@@ -13,7 +13,29 @@ public class Volunteer {
 		
 	}
 	
+	//NON PARAMATERISED CONSTRUCTOR
+	public Volunteer() {
+		
+		name = "";
+		age = 30;
+		designation = "";
+		gender = "";
+	}
 	
+	
+	//PARAMATERISED CONSTRUCTOR
+	public Volunteer(String name, Integer age, String designation, String gender) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.designation = designation;
+		this.gender = gender;
+	}
+
+
+
+
+
 	public String getName() {
 		return name;
 	}

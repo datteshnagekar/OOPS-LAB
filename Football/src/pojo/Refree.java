@@ -10,7 +10,25 @@ public class Refree {
 		
 	}
 	
+	public Refree() {
+		
+		name = "";
+		age = 30;
+		designation = "";
+		gender = "";
+	}
 	
+	
+	
+	public Refree(String name, Integer age, String designation, String gender) {
+		
+		this.name = name;
+		this.age = age;
+		this.designation = designation;
+		this.gender = gender;
+	}
+
+
 	public String getName() {
 		return name;
 	}

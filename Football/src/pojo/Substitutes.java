@@ -11,6 +11,29 @@ public class Substitutes {
 			
 		}
 		
+		public Substitutes() {
+			
+			name = "";
+			age = 30;
+			condition = "";
+			playPosition = "";
+		}
+
+		
+		
+		
+		
+		
+		public Substitutes(String name, Integer age, String condition, String playPosition) {
+			super();
+			this.name = name;
+			this.age = age;
+			this.condition = condition;
+			this.playPosition = playPosition;
+		}
+
+
+
 		public String getName() {
 			return name;
 		}

@@ -11,6 +11,34 @@ public class Ground {
 		
 	}
 	
+public Ground() {
+		
+		sides = 2;
+		condition = "";
+		playersPlaying = 23;
+		volunteersPresent = 10;
+	}
+	
+	
+	
+	
+	
+	
+	public Ground(Integer sides, String condition, Integer playersPlaying, Integer volunteersPresent) {
+		
+		this.sides = sides;
+		this.condition = condition;
+		this.playersPlaying = playersPlaying;
+		this.volunteersPresent = volunteersPresent;
+	}
+
+
+
+
+
+
+
+
 	public Integer getSides() {
 		return sides;
 	}

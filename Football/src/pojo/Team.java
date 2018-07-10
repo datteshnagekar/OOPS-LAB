@@ -10,6 +10,24 @@ public class Team {
 		
 	}
 	
+	public Team() {
+		
+		name = "";
+		total = 23;
+		gender = "";
+	}
+	
+	
+	
+	public Team(String name, Integer total, String gender) {
+		super();
+		this.name = name;
+		this.total = total;
+		this.gender = gender;
+	}
+
+
+
 	public String getName() {
 		return name;
 	}

@@ -10,6 +10,27 @@ public class Stadium {
 		
 	}
 	
+	public Stadium() {
+		
+		capacity = 40000;
+		condition = "";
+		availability = "";
+	}
+	
+	
+	
+	
+	
+	public Stadium(Integer capacity, String condition, String availability) {
+		super();
+		this.capacity = capacity;
+		this.condition = condition;
+		this.availability = availability;
+	}
+
+
+
+
 	public Integer getCapacity() {
 		return capacity;
 	}
