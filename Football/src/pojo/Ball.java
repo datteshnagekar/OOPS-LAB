@@ -6,7 +6,7 @@ public class Ball {
 	private String pattern;
 	
 	public void shot() {
-		
+		System.out.println("ok");
 		
 	}
 	
