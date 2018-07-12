@@ -3,20 +3,20 @@ package BubbleSortAlgorthm;
 public class BubbleAlgorthm {
 	int temp=0;
 	private int array[]= {30,40,1,21,56,78};
-	int n = array.length;
 
-	public void bubbleSort(){
+
+	public static void bubbleSort(int [] arr){
 		
-		for(int i=0; i<n; i++)
+		for(int i=0; i<arr.length; i++)
 		{
-			for(int j=0; j< n-i-1; j++)
+			for(int j=0; j< arr.length-i-1; j++)
 			{
-				if(array[j]>array[j+1])
+				if(arr[j]>arr[j+1])
 				{
 					
-					temp = array[j];
-					array[j] = array[j+1];
-					array[j+1] = temp;
+					int temp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = temp;
 				}
 				
 			}
@@ -27,12 +27,12 @@ public class BubbleAlgorthm {
 
 		
 		//array after bubble sort
-	public void display() {
+	public static void display(int []arr) {
 		System.out.println("Array after bubble sort");
 		
-		for(int i=0; i<array.length; i++)
+		for(int i=0; i<arr.length; i++)
 		{
-			System.out.println(array[i] +" ");
+			System.out.println(arr[i] +" ");
 		}
 	}
 

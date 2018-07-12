@@ -6,16 +6,16 @@ public class NewBubble {
 	{
 		int data[]= {30,40,1,21,56,78};
 		
-		BubbleAlgorthm bubbleObject = new BubbleAlgorthm(data);
+		
 		
 		System.out.println("Before Sorting");
-		bubbleObject.display();
+		BubbleAlgorthm.display(data);
 		
-		bubbleObject.bubbleSort();
+		BubbleAlgorthm.bubbleSort(data);
 		
 		System.out.println("After Sorting");
 		
-		bubbleObject.display();
+		BubbleAlgorthm.display(data);
 	}
 
 }
