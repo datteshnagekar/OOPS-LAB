@@ -6,7 +6,7 @@ public class NewBubble {
 	{
 		int data[]= {30,40,1,21,56,78};
 		
-		
+		// after removing object
 		
 		System.out.println("Before Sorting");
 		BubbleAlgorthm.display(data);
