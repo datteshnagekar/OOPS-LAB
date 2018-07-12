@@ -3,7 +3,7 @@ package BubbleSortAlgorthm;
 public class BubbleAlgorthm {
 	int temp=0;
 	private int array[]= {30,40,1,21,56,78};
-
+//
 
 	public static void bubbleSort(int [] arr){
 		
