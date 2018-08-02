@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1533208895 source:c:\users\dattesh\desktop\c++\student\main.cpp
+	<iostream>
+	"Student.h"
+
+1533209125 source:c:\users\dattesh\desktop\c++\student\src\student.cpp
+	<iostream>
+	<string>
+	"Student.h"
+
+1533209022 c:\users\dattesh\desktop\c++\student\include\student.h
+	<string>
+	<iostream>
+
