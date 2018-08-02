@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1533206231 source:c:\users\dattesh\desktop\c++\universityemp\main.cpp
+	<iostream>
+	"staff.h"
+
+1533206524 source:c:\users\dattesh\desktop\c++\universityemp\src\staff.cpp
+	<iostream>
+	<string>
+	"Staff.h"
+
+1533206529 c:\users\dattesh\desktop\c++\universityemp\include\staff.h
+	<string>
+	<iostream>
+
